@@ -1,0 +1,28 @@
+# CE-CoLLM Requirements
+# Cloud-Edge Collaborative Large Language Models
+
+# Core Dependencies
+torch>=2.0.0
+transformers>=4.30.0
+numpy>=1.24.0
+
+# Web Server (for cloud server)
+fastapi>=0.100.0
+uvicorn>=0.23.0
+pydantic>=2.0.0
+
+# Async HTTP Client (for edge client)
+aiohttp>=3.8.0
+
+# Optional: For better performance
+accelerate>=0.20.0
+bitsandbytes>=0.39.0  # For quantization
+
+# Optional: For training early exit heads
+datasets>=2.12.0
+tqdm>=4.65.0
+
+# Development
+pytest>=7.3.0
+black>=23.3.0
+flake8>=6.0.0
